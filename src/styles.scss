@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;/* You can add global styles to this file, and also import other style files */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body {
+    margin: 0;
+    background-color: #080b10;
+    color: #e8f0fa;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #ff812b;
+    color: #080b10;
+}
+
+.container-portfolio {
+    width: min(100% - 48px, 1170px);
+    margin-inline: auto;
+}
+
+@media (max-width: 640px) {
+    .container-portfolio {
+        width: min(100% - 32px, 1170px);
+    }
+}
