@@ -8,6 +8,16 @@ $orange: #ff812b;
 $text: #e8f0fa;
 $muted: #98a4b5;
 
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 /* ================= NAVBAR ================= */
 
 .navbar {
