@@ -559,9 +559,10 @@ $muted: #98a4b5;
     }
 
     .hero-art {
-        width: 100%;
-        max-width: 480px;
-        transform: none;
+            width: 90% !important;
+            max-width: 380px !important;
+            margin-right: 0 !important;
+            transform: none !important;
 
         &:hover {
             transform: scale(1.01);
